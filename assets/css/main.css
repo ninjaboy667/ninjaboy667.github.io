@@ -23,7 +23,7 @@
   header {
     width: 100%;
     height: var(--height1);
-    background: #190005;
+    background: black;
     display: flex;
     position: fixed;
     top: 0px;
