@@ -5,3 +5,20 @@ h1 {
 h2 {
     text-align: center;
 }
+
+main {
+    min-height: 700px;
+    background-image: url('https://dsm01pap001files.storage.live.com/y4muAzrJ8ck5L7AQWgirLf18LI_C9VRPRyplqunMkt-0wAnQTYVR2UpMbhJU4X-msqWFOLwNsJxj9JcrGRlAnI2O9qt4tim5NwZD0OFWvbSebViX7iO5yf-Goe-pdcXkCQ4be9p9Umbu7DZt0jdnF18fonQT-RwXSWLNv7E2oa9q24_u8sR_HwAt-6EBdYf-htZ?width=8192&height=4096&cropmode=none');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+  }
+  p {
+    text-align: center;
+    color: red
+  }
