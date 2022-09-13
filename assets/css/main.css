@@ -21,11 +21,17 @@ font-family: 'Raleway', sans-serif;
 
 }
 
+/* index-link2 */ 
 
 :root {
     --height1: 120px;
   }
 
+  #x-abs-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
 
 
 
