@@ -13,6 +13,7 @@ main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    backdrop-filter: brightness(70%);
 }
 
 h2 {
@@ -21,5 +22,6 @@ h2 {
   }
   p {
     text-align: center;
+    font-size: 22px;
     color: white;
   }
