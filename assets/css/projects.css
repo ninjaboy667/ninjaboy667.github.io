@@ -1,4 +1,77 @@
+.gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+
+
+@media (max-width: 1200px) {
+
+  .gallery {
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+  }
+}
+
+@media (max-width:768px){
+  .gallery{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+
+@media (max-width: 576px){
+  .gallery{
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  column-count:1;
+}  
+}
+
+.gallery img {
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  max-width: 350px;
+  max-height: 600px;
+  border-radius: 10px;
+  border: solid 1px black;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;   
+}
+
+.gallery img:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+
+/*
 .gallery {
+
+
+
+
+  
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -7,20 +80,45 @@
     gap: 16px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 20px 10px;
+  
   }
   
   .gallery img {
     width: 100%;
+    height: auto;
     max-width: 350px;
     max-height: 600px;
     object-fit: cover;
+    margin: 5% auto;
     border-radius: 10px;
     border: solid 1px black;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
   }
   
   .gallery::after {
     content: "";
     width: 350px;
   }
-  
+  */
+  h2 {
+    text-align: center;
+  }
+
+
+  /*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
