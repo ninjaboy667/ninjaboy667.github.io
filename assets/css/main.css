@@ -7,7 +7,9 @@ font-family: 'Raleway', sans-serif;
 
 
 
-
+h1, h2, p {
+  font-family: RaleWay;
+}
 
 
 /*---Media Queries --*/
