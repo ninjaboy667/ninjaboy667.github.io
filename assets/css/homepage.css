@@ -8,11 +8,12 @@ h2 {
 }
 
 main {
-    min-height: 700px;
-    background-image: url('https://dsm01pap001files.storage.live.com/y4muAzrJ8ck5L7AQWgirLf18LI_C9VRPRyplqunMkt-0wAnQTYVR2UpMbhJU4X-msqWFOLwNsJxj9JcrGRlAnI2O9qt4tim5NwZD0OFWvbSebViX7iO5yf-Goe-pdcXkCQ4be9p9Umbu7DZt0jdnF18fonQT-RwXSWLNv7E2oa9q24_u8sR_HwAt-6EBdYf-htZ?width=8192&height=4096&cropmode=none');
+    background-image: url("https://res.cloudinary.com/dgmr0e2yp/image/upload/f_auto,q_auto:good/v1664210268/Portfolio/mainpicture_1.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
     backdrop-filter: brightness(70%);
 }
 
@@ -24,4 +25,8 @@ h2 {
     text-align: center;
     font-size: 22px;
     color: white;
+  }
+
+  .overtop {
+    z-index: 10;
   }
